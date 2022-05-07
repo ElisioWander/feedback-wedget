@@ -5,6 +5,7 @@ import { useState } from "react";
 import { FeedbackTypeStep } from "./Steps/FeedbackTypeStep"; 
 import { FeedbackContentStep } from "./Steps/FeedbackContentStep";
 import { FeedbackSuccessStep } from "./Steps/FeedbackSuccessStep";
+import { useScreenshotContext } from "../../contexts/ScreenshotContext";
 
 export const feedbackTypes = {
   BUG: {
@@ -46,9 +47,12 @@ export function WidgetForm() {
   const [feedbackType, setFeedbackType] = useState<FeedbackType | null>(null)
   const [feedbackSent, setFeedbackSent] = useState(false)
 
+  const { setScreenshot } = useScreenshotContext()
+
   function handleFeedbackRestart() {
     setFeedbackSent(false)
     setFeedbackType(null)
+    setScreenshot(null)
   }
 
   return (
