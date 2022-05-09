@@ -61,7 +61,7 @@ Lembrando que para verificar o feedback no email, é necessário configurar no b
 
 ---
 ## 📝 Licença
-Copyright © 2020 [@ElisioWander](https://github.com/ElisioWander/ignews-to-deploy/blob/main/LICENSE)
+Copyright © 2020 [@ElisioWander](https://github.com/ElisioWander/feedback-wedget/blob/main/LICENSE)
 
 Este projeto está sobe a [LICENÇA MIT](https://opensource.org/licenses/MIT)
 
