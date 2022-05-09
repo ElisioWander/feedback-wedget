@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="./public/assets/feedback-widget.gif" width="400px">
+    <img src="./public/assets/feedback-widget.gif">
 </h1>
 
 ## 🏷️ Sobre 
