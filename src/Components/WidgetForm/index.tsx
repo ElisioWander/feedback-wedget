@@ -1,6 +1,6 @@
-import bugImageUrl from "../../assets/Bug.svg";
-import ideaImageUrl from "../../assets/Idea.svg";
-import thoughtImageUrl from "../../assets/Thought.svg";
+import bugImageUrl from "../../../public/assets/Bug.svg";
+import ideaImageUrl from "../../../public/assets/Idea.svg";
+import thoughtImageUrl from "../../../public/assets/Thought.svg";
 import { useState } from "react";
 import { FeedbackTypeStep } from "./Steps/FeedbackTypeStep"; 
 import { FeedbackContentStep } from "./Steps/FeedbackContentStep";
