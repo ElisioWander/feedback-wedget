@@ -1,6 +1,5 @@
 import { useTheme } from '../contexts/ThemeContext'
-import S from 'react-switch'
-const Switch = S
+import { Sun, Moon } from 'phosphor-react'
 
 export function Header() {
   const { theme, setTheme } = useTheme()
@@ -13,7 +12,11 @@ export function Header() {
     <header className="h-20 bg-zinc-400 dark:bg-zinc-800 text-zinc-100 flex items-center transition-colors " >
       <div className="w-full flex items-center justify-between px-4 md:px-16" >
         <span className="flex items-center" >
-          <Switch onChange={handleToggleTheme} checked={theme == ''} onColor={"#3F3F46"} height={20} onHandleColor="#996DFF" />
+          { theme ? (
+            <Moon fontSize={32} className="cursor-pointer text-zinc-200 " onClick={handleToggleTheme} />
+          ): (
+            <Sun fontSize={32} className="cursor-pointer text-zinc-500 " onClick={handleToggleTheme} />
+          ) }
         </span>
 
         <div className="md:flex md:gap-6" >
