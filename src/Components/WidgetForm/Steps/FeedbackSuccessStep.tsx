@@ -1,5 +1,5 @@
 import { CloseButton } from "../../CloseButton";
-import emojiUrl from '../../../../public/assets/Emoji.svg'
+import emojiUrl from '/assets/Emoji.svg'
 
 interface FeedbackSuccessStepProps {
   onFeedbackRestartRequested: () => void;
