@@ -1,4 +1,5 @@
 module.exports = {
+  darkMode: 'class',
   content: ["./src/**/*.tsx"],
   theme: {
     extend: {
@@ -6,11 +7,12 @@ module.exports = {
         brand: {
           300: "#996dff",
           500: "#8257e6"
-        }
+        },
+        'white': '#ffffff'
       },
       borderRadius: {
         md: "4px"
-      }
+      },
     },
   },
   plugins: [
