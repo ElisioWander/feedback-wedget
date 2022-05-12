@@ -1,5 +1,6 @@
 import { useTheme } from '../contexts/ThemeContext'
-// import Switch from 'react-switch'
+import S from 'react-switch'
+const Switch = S
 
 export function Header() {
   const { theme, setTheme } = useTheme()
@@ -11,9 +12,9 @@ export function Header() {
   return (
     <header className="h-20 bg-zinc-400 dark:bg-zinc-800 text-zinc-100 flex items-center transition-colors " >
       <div className="w-full flex items-center justify-between px-4 md:px-16" >
-        {/* <span className="flex items-center" >
+        <span className="flex items-center" >
           <Switch onChange={handleToggleTheme} checked={theme == ''} onColor={"#3F3F46"} height={20} onHandleColor="#996DFF" />
-        </span> */}
+        </span>
 
         <div className="md:flex md:gap-6" >
           <div className="md:w-24 md:h-4 bg-zinc-200 dark:bg-zinc-700 rounded-lg " ></div>
