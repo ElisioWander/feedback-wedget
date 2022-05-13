@@ -17,8 +17,8 @@ export function ScreenshotButton() {
         onClick={() => setScreenshot(null)}
         style={{
           backgroundImage: `url(${screenshot})`,
-          backgroundPosition: 'right bottom',
-          backgroundSize: 180,
+          backgroundRepeat:'no-repeat',
+          backgroundSize: 'cover',
         }}
       >
         <Trash weight="fill" className="text-zinc-500 dark:text-zinc-400 hover:text-zinc-800 dark:hover:text-zinc-100 transition-colors " />
