@@ -5,6 +5,11 @@
 ## 🏷️ Sobre 
 **FeedbackWidget** é um pop-up para usuários enviarem seus feedbacks sobre alguma coisa relacionada a aplicação, seja ela um bug, ideia, ou qualquer outra coisa que faça sentido.
 
+## Adições pessoais: 
+- Criação de contexto para o envio da screenshot
+- Layout da página
+- Tema Light & Dark
+
 O projeto foi desenvolvido durante a NLW Return, evento produzido pela escola de tecnologia Rocketseat.
 
 ---
